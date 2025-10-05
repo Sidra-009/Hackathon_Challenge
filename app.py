@@ -484,7 +484,11 @@ def get_weather_icons():
     }
 
 # -------------------- STREAMLIT SETUP --------------------
-st.markdown('<h1 class="main-header floating">🌦️ Will It Rain On My Parade?</h1>', unsafe_allow_html=True)
+st.set_page_config(
+    page_title="Will It Rain? 🌦️ | StellarLogic",
+    page_icon="🌧️",
+    layout="wide"
+)
 st.markdown('<h3 style="text-align: center; color: black; margin-bottom: 2rem; font-weight: bold;">Advanced Weather Intelligence Platform</h3>', unsafe_allow_html=True)
 
 st.markdown("""
