@@ -1,6 +1,7 @@
 streamlit
 pandas
 requests
+plotly
 folium
 streamlit-folium
 streamlit-lottie
